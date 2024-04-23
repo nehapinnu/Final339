@@ -49,13 +49,20 @@
     </header>
     <main>
       <section>
-        <span><h1>Neha Pinnu</h1></span>
+        <span class="container"><h1>Neha Pinnu</h1></span>
       </section>
       <!-- <div class="change">
       <h1>Neha Pinnu</h1>
       <img src="" id="image">
       </div> -->
     </main>
+    <script type="text/javascript" src="js/vanilla_tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll('section'), {
+        max: 7,
+        speed: 300
+      });
+    </script>
     <script>
       function changeBack() {
         let image = document.querySelector("section");
