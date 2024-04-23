@@ -115,3 +115,10 @@
       margin-bottom: none;
       /* width: 40%; */
   }
+
+  .endSongs {
+      display: flex;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 15px;
+  }
