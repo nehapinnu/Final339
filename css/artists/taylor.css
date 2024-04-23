@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #da1890;
+    --second: #1b0ab6;
+    --bgColor: #2d2d2d;
+}
+
+h1,
+h2,
+h4,
+p {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+#headAlbum {
+    color: #2d2d2d;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
+    transition: 0.5s;
+    z-index: 100000;
+}
+
+header.scrolled {
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 2px solid var(--primary);
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30;
+    backdrop-filter: blur(20px);
+    padding: 10px 100px;
+}
+
+.logo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    /* display: inline-flex; */
+}
+
+.nav li {
+    list-style: none;
+    margin: 0 60px;
+}
+
+.nav li a {
+    color: var(--bgColor);
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav li a:hover,
+.nav li a.active {
+    color: var(--primary);
+}
+
+.nav li a.active {
+    font-weight: bold;
+}
+

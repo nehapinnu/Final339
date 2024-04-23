@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/dropIndex.css" />
+    <link rel="stylesheet" href="css/heading.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Neha Pinnu's Website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          <li class="navBar">
+            <a href="index.html" class="logo">
+              <img
+                src="images/background/dino.png"
+                alt="dino"
+                class="logoImage"
+              />
+            </a>
+          </li>
+          <li class="navBar">
+            <a href="index.html" class="active"> Home </a>
+          </li>
+          <li class="navBar">
+            <a href="shopping.html" class="navColor"> Shopping </a>
+          </li>
+          <li class="navBar">
+            <div class="dropdown" id="one">
+              <a href="music.html" class="navColor">
+                <button class="dropbtn">
+                  Music
+                  <i class="fa fa-caret-down"></i>
+                </button>
+              </a>
+              <div class="dropdown-content">
+                <a href="artists/taylor.html">Taylor Swift</a>
+                <a href="artists/selena.html">Selena Gomez</a>
+                <a href="artists/ariana.html">Ariana Grande</a>
+                <a href="artists/ellie.html">Ellie Goulding</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <span><h1>Neha Pinnu</h1></span>
+      </section>
+      <!-- <div class="change">
+      <h1>Neha Pinnu</h1>
+      <img src="" id="image">
+      </div> -->
+    </main>
+    <script>
+      function changeBack() {
+        let image = document.querySelector("section");
+        let images = [
+          'url("images/me/me+tyler.jpeg")',
+          'url("images/me/spain2.jpeg")',
+          'url("images/me/flowers2.jpeg")',
+          'url("images/me/prom.jpeg")',
+          'url("images/me/groupSt.jpeg")',
+          'url("images/me/jumping.jpeg")',
+          'url("images/me/mecc.jpeg")',
+          'url("images/me/gameDay2.jpeg")',
+          'url("images/me/family.jpeg")',
+          'url("images/me/dateTyler.jpeg")',
+          'url("images/me/dateParty2.jpeg")',
+          'url("images/me/christmas2.jpg")',
+          'url("images/me/cabin.jpeg")',
+          'url("images/me/birthday20.jpeg")',
+          // "images/me/me+tyler.jpeg",
+          // "images/me/spain2.jpeg",
+          // "images/me/flowers2.jpeg",
+          // "images/me/prom.jpeg",
+          // "images/me/groupSt.jpeg",
+          // "images/me/jumping.jpeg",
+          // "images/me/mecc.jpeg",
+          // "images/me/gameDay2.jpeg",
+          // "images/me/family.jpeg",
+          // "images/me/dateTyler.jpeg",
+          // "images/me/dateParty2.jpeg",
+          // "images/me/christmas2.jpg",
+          // "images/me/cabin.jpeg",
+          // "images/me/birthday20.jpeg"
+        ];
+
+        const bg = images[Math.floor(Math.random() * images.length)];
+        image.style.backgroundImage = bg;
+      }
+      setInterval(changeBack, 5000);
+
+      // let image = document.getElementById('image');
+      // let images = [
+      //   "images/me/me+tyler.jpeg",
+      //   "images/me/spain2.jpeg",
+      //   "images/me/flowers2.jpeg",
+      //   "images/me/prom.jpeg",
+      //   "images/me/groupSt.jpeg",
+      //   "images/me/jumping.jpeg",
+      //   "images/me/mecc.jpeg",
+      //   "images/me/gameDay2.jpeg",
+      //   "images/me/family.jpeg",
+      //   "images/me/dateTyler.jpeg",
+      //   "images/me/dateParty2.jpeg",
+      //   "images/me/christmas2.jpg",
+      //   "images/me/cabin.jpeg",
+      //   "images/me/birthday20.jpeg"
+      // ]
+      // setInterval(function(){
+      //   let random = Math.floor(Math.random() * 14);
+      //   image.src = images[random];
+      // }, 3000);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+.artistHeader {
+    text-align: center;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.favMusic {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.artistGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    justify-content: center;
+    justify-self: center;
+    margin: auto;
+}
+
+/* #player {
+    grid-column: 1 / span 2;
+} */
+
+.artistGallery img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.artistImage:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.artistImage {
+    /* display: flex; */
+    font-family: 'Open Sans';
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(255, 255, 255, 0.1);
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+}

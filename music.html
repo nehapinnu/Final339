@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css" />
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/heading.css" />
+    <link rel="stylesheet" href="css/music.css" />
+    <link rel="stylesheet" href="css/dropdownMusic.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Black%20Ops%20One"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <title>Neha Pinnu's Website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          <li class="navBar">
+          <a href="index.html" class="logo">
+          <img
+            src="../../images/background/dino.png"
+            alt="dino"
+            class="logoImage"
+          />
+        </a>
+        </li>
+          <li class="navBar">
+            <a href="index.html" class="navColor"> Home </a>
+          </li>
+          <li class="navBar">
+            <a href="shopping.html" class="navColor"> Shopping </a>
+          </li>
+          <li class="navBar">
+            <div class="dropdown">
+              <a href="music.html" class="active">
+                <button class="dropbtn">
+                  Music
+                  <i class="fa fa-caret-down"></i>
+                </button>
+              </a>
+              <div class="dropdown-content">
+                <a href="artists/taylor.html">Taylor Swift</a>
+                <a href="artists/selena.html">Selena Gomez</a>
+                <a href="artists/ariana.html">Ariana Grande</a>
+                <a href="artists/ellie.html">Ellie Goulding</a>
+              </div>
+            </div>
+          </li>
+          <!-- <li>
+        <div class="navBar">
+            <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+            </div>
+            
+        </div>
+        </li> -->
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <!--My Favorite Items Title-->
+      <h1 class="artistHeader">My Favorite Artists</h1>
+      <!--The artists gallery-->
+      <div class="artistGallery">
+        <!-- Taylor Swift-->
+        <div class="artistImage">
+          <a
+            href="images/artists/taylorMic.jpeg"
+            target="_blank"
+            data-lightbox="artists"
+            data-title="Taylor Swift"
+            data-alt="Taylor Swift"
+          >
+            <img
+              src="images/artists/taylorMic.jpeg"
+              width="200"
+              alt="Taylor Swift"
+            />
+          </a>
+          <!-- Taylor Swift: link to page-->
+          <div class="artistLink">
+            <a href="artists/taylor.html">Taylor Swift</a>
+          </div>
+          <!-- Taylor Swift: socials-->
+          <div class="socials">
+            <!-- Taylor Swift: spotify-->
+            <a
+              href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02?si=wnSyi1EzQUSEzp12VFGrqA"
+            >
+              <img
+                src="images/socials/spotify.png"
+                width="200"
+                alt="spotify logo"
+              />
+            </a>
+            <!-- Taylor Swift: apple-->
+            <a href="https://music.apple.com/us/artist/taylor-swift/159260351">
+              <img
+                src="images/socials/apple.png"
+                width="200"
+                alt="apple logo"
+              />
+            </a>
+            <!-- Taylor Swift: instagram-->
+            <a href="https://www.instagram.com/taylorswift/">
+              <img
+                src="images/socials/instagram.png"
+                width="200"
+                alt="instagram logo"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Selena Gomez-->
+        <div class="artistImage">
+          <a
+            href="images/artists/selena.jpeg"
+            target="_blank"
+            data-lightbox="artists"
+            data-title="Selena Gomez"
+            data-alt="Selena Gomez"
+          >
+            <img
+              src="images/artists/selena.jpeg"
+              width="200"
+              alt="Selena Gomez"
+            />
+          </a>
+          <!-- Selena Gomez: link to her page-->
+          <div class="artistLink">
+            <a href="artists/selena.html">Selena Gomez</a>
+          </div>
+          <!-- Selena Gomez: socials-->
+          <div class="socials">
+            <!-- Selena Gomez: spotify -->
+            <a
+              href="https://open.spotify.com/artist/0C8ZW7ezQVs4URX5aX7Kqx?si=zbk0s_ULRJ-rKBrwEG816A"
+            >
+              <img
+                src="images/socials/spotify.png"
+                width="200"
+                alt="spotify logo"
+              />
+            </a>
+            <!-- Selena Gomez: apple-->
+            <a href="https://music.apple.com/us/artist/selena-gomez/280215834">
+              <img
+                src="images/socials/apple.png"
+                width="200"
+                alt="apple logo"
+              />
+            </a>
+            <!-- Selena Gomez: instagram-->
+            <a href="https://www.instagram.com/selenagomez/">
+              <img
+                src="images/socials/instagram.png"
+                width="200"
+                alt="instagram logo"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Ariana Grande -->
+        <div class="artistImage">
+          <a
+            href="images/artists/ariana.jpeg"
+            target="_blank"
+            data-lightbox="artists"
+            data-title="Ariana Grande"
+            data-alt="Ariana Grande"
+          >
+            <img
+              src="images/artists/ariana.jpeg"
+              width="200"
+              alt="Ariana Grande"
+            />
+          </a>
+          <!-- Ariana Grande: link to her page -->
+          <div class="artistLink">
+            <a href="artists/ariana.html">Ariana Grande</a>
+          </div>
+          <!-- Ariana Grande: socials -->
+          <div class="socials">
+            <!-- Ariana Grande: spotify -->
+            <a
+              href="https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR?si=C7MCP5U_S8-2bOZiDXRU5A"
+            >
+              <img
+                src="images/socials/spotify.png"
+                width="200"
+                alt="spotify logo"
+              />
+            </a>
+            <!-- Ariana Grande: apple -->
+            <a href="https://music.apple.com/us/artist/ariana-grande/412778295">
+              <img
+                src="images/socials/apple.png"
+                width="200"
+                alt="apple logo"
+              />
+            </a>
+            <!-- Ariana Grande: instagram -->
+            <a href="https://www.instagram.com/arianagrande/?hl=en">
+              <img
+                src="images/socials/instagram.png"
+                width="200"
+                alt="instagram logo"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- Ellie Goulding -->
+        <div class="artistImage">
+          <a
+            href="images/artists/ellie.jpeg"
+            target="_blank"
+            data-lightbox="artists"
+            data-title="Ellie Goulding"
+            data-alt="Ellie Goulding"
+          >
+            <img
+              src="images/artists/ellie.jpeg"
+              width="200"
+              alt="Ellie Goulding"
+            />
+          </a>
+          <!-- Ellie Goulding: link to her page -->
+          <div class="artistLink">
+            <a href="artists/ellie.html">Ellie Goulding</a>
+          </div>
+          <!-- Ellie Goulding: socials -->
+          <div class="socials">
+            <!-- Ellie Goulding: spotify -->
+            <a
+              href="https://open.spotify.com/artist/0X2BH1fck6amBIoJhDVmmJ?si=gD2z8j3WR1y5ZmGF4K9Kbg"
+            >
+              <img
+                src="images/socials/spotify.png"
+                width="200"
+                alt="spotify logo"
+              />
+            </a>
+            <!-- Ellie Goulding: apple -->
+            <a
+              href="https://music.apple.com/us/artist/ellie-goulding/338264227"
+            >
+              <img
+                src="images/socials/apple.png"
+                width="200"
+                alt="apple logo"
+              />
+            </a>
+            <!-- Ellie Goulding: instagram -->
+            <a href="https://www.instagram.com/elliegoulding/?hl=en">
+              <img
+                src="images/socials/instagram.png"
+                width="200"
+                alt="instagram logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <h2 class="favMusic">My Favorite Music</h2>
+      <div id="spotify">
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/playlist/37i9dQZF1EIgAH2pdI2WQ4?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </main>
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({
+        resizeDuration: 0,
+        wrapAround: true,
+        positionFromTop: 10,
+      });
+    </script>
+  </body>
+</html>
